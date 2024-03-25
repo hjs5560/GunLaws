@@ -1,1 +1,14 @@
 Anushka: Post the notes that you took from the meeting in this file.
+Do test, train, and unseen data
+
+Do out-of-sample error analysis on pre-intervention
+
+For slope train the model on the training set and then predict it on the test set and then run it on the unseen dataset. 
+
+For every state you have a table(for a given error metric), each state is a row and then columns are error metrics on 1 time step ahead 2 time step ahead, and 3 time step ahead. In each cell report the mean, SD of the error metric, and the number of out-of-sample predictions that we could evaluate. 
+
+You might want to order it. Make it readable. What about being a Z square to care about? We have multiple different types of intervention so there may be different tables.
+
+SD with respect to different types of crimes. 
+
+3 columns for the mean and 3 columns for the linear model 
